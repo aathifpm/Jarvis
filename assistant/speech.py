@@ -14,7 +14,7 @@ class SpeechHandler:
         self.offline_mode = False
         self.voices = self.engine.getProperty('voices')
         self.set_voice(1)  # Default to a female voice (index may vary)
-        self.set_rate(180)  # Default speech rate
+        self.set_rate(200)  # Default speech rate
         self.set_volume(0.8)  # Default volume
         self.use_online_tts =False   # Flag to switch between offline and online TTS
 

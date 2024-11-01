@@ -2,6 +2,14 @@ import json
 import os
 from datetime import datetime
 
+class Task:
+    def __init__(self, description, priority=0, due_date=None, category=None):
+        self.description = description
+        self.priority = priority
+        self.due_date = due_date
+        self.category = category
+        self.created_at = datetime.now()
+
 class TaskManager:
     def __init__(self):
         self.tasks_file = os.path.join("data", "tasks.json")
@@ -26,12 +34,16 @@ class TaskManager:
         with open(self.tasks_file, "w") as f:
             json.dump(self.tasks, f)
 
-    def add_task(self, task):
-        self.tasks.append({"task": task, "created_at": datetime.now().isoformat()})
+    def add_task(self, description, priority=0, due_date=None, category=None):
+        task = Task(description, priority, due_date, category)
+        self.tasks.append(task)
+        self.tasks.sort(key=lambda x: (x.priority, x.due_date or datetime.max))
         self.save_tasks()
 
-    def list_tasks(self):
-        return [task["task"] for task in self.tasks]
+    def list_tasks(self, category=None):
+        if category:
+            return [task for task in self.tasks if task.category == category]
+        return self.tasks
 
     def clear_tasks(self):
         self.tasks = []
@@ -47,7 +59,7 @@ def handle_task_management(assistant, entities):
     elif "list" in tokens or "show" in tokens:
         tasks = assistant.task_manager.list_tasks()
         if tasks:
-            task_list = "\n".join([f"- {task}" for task in tasks])
+            task_list = "\n".join([f"- {task.description}" for task in tasks])
             return f"Here are your tasks:\n{task_list}"
         else:
             return "You have no tasks."

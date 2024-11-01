@@ -13,6 +13,7 @@ def main():
                 return
         
         assistant.run()
+        print("Jarvis has shut down. Goodbye!")
     except KeyboardInterrupt:
         print("\nJarvis shutting down. Goodbye!")
     except PermissionError:
