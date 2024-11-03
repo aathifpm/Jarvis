@@ -4,100 +4,48 @@ INFO:comtypes.client._code_cache:Imported existing <module 'comtypes.gen' from '
 INFO:comtypes.client._code_cache:Using writeable comtypes cache directory: 'C:\Users\Aathif\AppData\Roaming\Python\Python312\site-packages\comtypes\gen'
 INFO:comtypes.client._code_cache:Imported existing <module 'comtypes.gen' from 'C:\\Users\\Aathif\\AppData\\Roaming\\Python\\Python312\\site-packages\\comtypes\\gen\\__init__.py'>
 INFO:comtypes.client._code_cache:Using writeable comtypes cache directory: 'C:\Users\Aathif\AppData\Roaming\Python\Python312\site-packages\comtypes\gen'
+INFO:numexpr.utils:NumExpr defaulting to 8 threads.
 INFO:comtypes.client._code_cache:Imported existing <module 'comtypes.gen' from 'C:\\Users\\Aathif\\AppData\\Roaming\\Python\\Python312\\site-packages\\comtypes\\gen\\__init__.py'>
 INFO:comtypes.client._code_cache:Using writeable comtypes cache directory: 'C:\Users\Aathif\AppData\Roaming\Python\Python312\site-packages\comtypes\gen'
 INFO:comtypes.client._code_cache:Imported existing <module 'comtypes.gen' from 'C:\\Users\\Aathif\\AppData\\Roaming\\Python\\Python312\\site-packages\\comtypes\\gen\\__init__.py'>
 INFO:comtypes.client._code_cache:Using writeable comtypes cache directory: 'C:\Users\Aathif\AppData\Roaming\Python\Python312\site-packages\comtypes\gen'
+INFO:numexpr.utils:NumExpr defaulting to 8 threads.
 INFO:comtypes.client._code_cache:Imported existing <module 'comtypes.gen' from 'C:\\Users\\Aathif\\AppData\\Roaming\\Python\\Python312\\site-packages\\comtypes\\gen\\__init__.py'>
 INFO:comtypes.client._code_cache:Using writeable comtypes cache directory: 'C:\Users\Aathif\AppData\Roaming\Python\Python312\site-packages\comtypes\gen'
+INFO:numexpr.utils:NumExpr defaulting to 8 threads.
 INFO:comtypes.client._code_cache:Imported existing <module 'comtypes.gen' from 'C:\\Users\\Aathif\\AppData\\Roaming\\Python\\Python312\\site-packages\\comtypes\\gen\\__init__.py'>
 INFO:comtypes.client._code_cache:Using writeable comtypes cache directory: 'C:\Users\Aathif\AppData\Roaming\Python\Python312\site-packages\comtypes\gen'
+INFO:numexpr.utils:NumExpr defaulting to 8 threads.
 INFO:comtypes.client._code_cache:Imported existing <module 'comtypes.gen' from 'C:\\Users\\Aathif\\AppData\\Roaming\\Python\\Python312\\site-packages\\comtypes\\gen\\__init__.py'>
 INFO:comtypes.client._code_cache:Using writeable comtypes cache directory: 'C:\Users\Aathif\AppData\Roaming\Python\Python312\site-packages\comtypes\gen'
+INFO:numexpr.utils:NumExpr defaulting to 8 threads.
 INFO:comtypes.client._code_cache:Imported existing <module 'comtypes.gen' from 'C:\\Users\\Aathif\\AppData\\Roaming\\Python\\Python312\\site-packages\\comtypes\\gen\\__init__.py'>
 INFO:comtypes.client._code_cache:Using writeable comtypes cache directory: 'C:\Users\Aathif\AppData\Roaming\Python\Python312\site-packages\comtypes\gen'
+INFO:numexpr.utils:NumExpr defaulting to 8 threads.
 INFO:comtypes.client._code_cache:Imported existing <module 'comtypes.gen' from 'C:\\Users\\Aathif\\AppData\\Roaming\\Python\\Python312\\site-packages\\comtypes\\gen\\__init__.py'>
 INFO:comtypes.client._code_cache:Using writeable comtypes cache directory: 'C:\Users\Aathif\AppData\Roaming\Python\Python312\site-packages\comtypes\gen'
+INFO:numexpr.utils:NumExpr defaulting to 8 threads.
 INFO:comtypes.client._code_cache:Imported existing <module 'comtypes.gen' from 'C:\\Users\\Aathif\\AppData\\Roaming\\Python\\Python312\\site-packages\\comtypes\\gen\\__init__.py'>
 INFO:comtypes.client._code_cache:Using writeable comtypes cache directory: 'C:\Users\Aathif\AppData\Roaming\Python\Python312\site-packages\comtypes\gen'
+INFO:numexpr.utils:NumExpr defaulting to 8 threads.
 INFO:comtypes.client._code_cache:Imported existing <module 'comtypes.gen' from 'C:\\Users\\Aathif\\AppData\\Roaming\\Python\\Python312\\site-packages\\comtypes\\gen\\__init__.py'>
 INFO:comtypes.client._code_cache:Using writeable comtypes cache directory: 'C:\Users\Aathif\AppData\Roaming\Python\Python312\site-packages\comtypes\gen'
-ERROR:playsound:
-    Error 305 for command:
-        open "C:\Users\Aathif\AppData\Local\Temp\tmpz7m_tchc.mp3"
-    Cannot specify extra characters after a string enclosed in quotation marks.
-ERROR:playsound:
-    Error 263 for command:
-        close "C:\Users\Aathif\AppData\Local\Temp\tmpz7m_tchc.mp3"
-    The specified device is not open or is not recognized by MCI.
-WARNING:playsound:Failed to close the file: "C:\Users\Aathif\AppData\Local\Temp\tmpz7m_tchc.mp3"
+INFO:numexpr.utils:NumExpr defaulting to 8 threads.
 INFO:comtypes.client._code_cache:Imported existing <module 'comtypes.gen' from 'C:\\Users\\Aathif\\AppData\\Roaming\\Python\\Python312\\site-packages\\comtypes\\gen\\__init__.py'>
 INFO:comtypes.client._code_cache:Using writeable comtypes cache directory: 'C:\Users\Aathif\AppData\Roaming\Python\Python312\site-packages\comtypes\gen'
+INFO:numexpr.utils:NumExpr defaulting to 8 threads.
 INFO:comtypes.client._code_cache:Imported existing <module 'comtypes.gen' from 'C:\\Users\\Aathif\\AppData\\Roaming\\Python\\Python312\\site-packages\\comtypes\\gen\\__init__.py'>
 INFO:comtypes.client._code_cache:Using writeable comtypes cache directory: 'C:\Users\Aathif\AppData\Roaming\Python\Python312\site-packages\comtypes\gen'
+INFO:numexpr.utils:NumExpr defaulting to 8 threads.
 INFO:comtypes.client._code_cache:Imported existing <module 'comtypes.gen' from 'C:\\Users\\Aathif\\AppData\\Roaming\\Python\\Python312\\site-packages\\comtypes\\gen\\__init__.py'>
 INFO:comtypes.client._code_cache:Using writeable comtypes cache directory: 'C:\Users\Aathif\AppData\Roaming\Python\Python312\site-packages\comtypes\gen'
+INFO:numexpr.utils:NumExpr defaulting to 8 threads.
 INFO:comtypes.client._code_cache:Imported existing <module 'comtypes.gen' from 'C:\\Users\\Aathif\\AppData\\Roaming\\Python\\Python312\\site-packages\\comtypes\\gen\\__init__.py'>
 INFO:comtypes.client._code_cache:Using writeable comtypes cache directory: 'C:\Users\Aathif\AppData\Roaming\Python\Python312\site-packages\comtypes\gen'
+INFO:numexpr.utils:NumExpr defaulting to 8 threads.
 INFO:comtypes.client._code_cache:Imported existing <module 'comtypes.gen' from 'C:\\Users\\Aathif\\AppData\\Roaming\\Python\\Python312\\site-packages\\comtypes\\gen\\__init__.py'>
 INFO:comtypes.client._code_cache:Using writeable comtypes cache directory: 'C:\Users\Aathif\AppData\Roaming\Python\Python312\site-packages\comtypes\gen'
+INFO:numexpr.utils:NumExpr defaulting to 8 threads.
 INFO:comtypes.client._code_cache:Imported existing <module 'comtypes.gen' from 'C:\\Users\\Aathif\\AppData\\Roaming\\Python\\Python312\\site-packages\\comtypes\\gen\\__init__.py'>
 INFO:comtypes.client._code_cache:Using writeable comtypes cache directory: 'C:\Users\Aathif\AppData\Roaming\Python\Python312\site-packages\comtypes\gen'
-INFO:comtypes.client._code_cache:Imported existing <module 'comtypes.gen' from 'C:\\Users\\Aathif\\AppData\\Roaming\\Python\\Python312\\site-packages\\comtypes\\gen\\__init__.py'>
-INFO:comtypes.client._code_cache:Using writeable comtypes cache directory: 'C:\Users\Aathif\AppData\Roaming\Python\Python312\site-packages\comtypes\gen'
-INFO:comtypes.client._code_cache:Imported existing <module 'comtypes.gen' from 'C:\\Users\\Aathif\\AppData\\Roaming\\Python\\Python312\\site-packages\\comtypes\\gen\\__init__.py'>
-INFO:comtypes.client._code_cache:Using writeable comtypes cache directory: 'C:\Users\Aathif\AppData\Roaming\Python\Python312\site-packages\comtypes\gen'
-INFO:comtypes.client._code_cache:Imported existing <module 'comtypes.gen' from 'C:\\Users\\Aathif\\AppData\\Roaming\\Python\\Python312\\site-packages\\comtypes\\gen\\__init__.py'>
-INFO:comtypes.client._code_cache:Using writeable comtypes cache directory: 'C:\Users\Aathif\AppData\Roaming\Python\Python312\site-packages\comtypes\gen'
-INFO:comtypes.client._code_cache:Imported existing <module 'comtypes.gen' from 'C:\\Users\\Aathif\\AppData\\Roaming\\Python\\Python312\\site-packages\\comtypes\\gen\\__init__.py'>
-INFO:comtypes.client._code_cache:Using writeable comtypes cache directory: 'C:\Users\Aathif\AppData\Roaming\Python\Python312\site-packages\comtypes\gen'
-INFO:comtypes.client._code_cache:Imported existing <module 'comtypes.gen' from 'C:\\Users\\Aathif\\AppData\\Roaming\\Python\\Python312\\site-packages\\comtypes\\gen\\__init__.py'>
-INFO:comtypes.client._code_cache:Using writeable comtypes cache directory: 'C:\Users\Aathif\AppData\Roaming\Python\Python312\site-packages\comtypes\gen'
-INFO:comtypes.client._code_cache:Imported existing <module 'comtypes.gen' from 'C:\\Users\\Aathif\\AppData\\Roaming\\Python\\Python312\\site-packages\\comtypes\\gen\\__init__.py'>
-INFO:comtypes.client._code_cache:Using writeable comtypes cache directory: 'C:\Users\Aathif\AppData\Roaming\Python\Python312\site-packages\comtypes\gen'
-INFO:comtypes.client._code_cache:Imported existing <module 'comtypes.gen' from 'C:\\Users\\Aathif\\AppData\\Roaming\\Python\\Python312\\site-packages\\comtypes\\gen\\__init__.py'>
-INFO:comtypes.client._code_cache:Using writeable comtypes cache directory: 'C:\Users\Aathif\AppData\Roaming\Python\Python312\site-packages\comtypes\gen'
-INFO:comtypes.client._code_cache:Imported existing <module 'comtypes.gen' from 'C:\\Users\\Aathif\\AppData\\Roaming\\Python\\Python312\\site-packages\\comtypes\\gen\\__init__.py'>
-INFO:comtypes.client._code_cache:Using writeable comtypes cache directory: 'C:\Users\Aathif\AppData\Roaming\Python\Python312\site-packages\comtypes\gen'
-INFO:comtypes.client._code_cache:Imported existing <module 'comtypes.gen' from 'C:\\Users\\Aathif\\AppData\\Roaming\\Python\\Python312\\site-packages\\comtypes\\gen\\__init__.py'>
-INFO:comtypes.client._code_cache:Using writeable comtypes cache directory: 'C:\Users\Aathif\AppData\Roaming\Python\Python312\site-packages\comtypes\gen'
-INFO:comtypes.client._code_cache:Imported existing <module 'comtypes.gen' from 'C:\\Users\\Aathif\\AppData\\Roaming\\Python\\Python312\\site-packages\\comtypes\\gen\\__init__.py'>
-INFO:comtypes.client._code_cache:Using writeable comtypes cache directory: 'C:\Users\Aathif\AppData\Roaming\Python\Python312\site-packages\comtypes\gen'
-INFO:comtypes.client._code_cache:Imported existing <module 'comtypes.gen' from 'C:\\Users\\Aathif\\AppData\\Roaming\\Python\\Python312\\site-packages\\comtypes\\gen\\__init__.py'>
-INFO:comtypes.client._code_cache:Using writeable comtypes cache directory: 'C:\Users\Aathif\AppData\Roaming\Python\Python312\site-packages\comtypes\gen'
-INFO:comtypes.client._code_cache:Imported existing <module 'comtypes.gen' from 'C:\\Users\\Aathif\\AppData\\Roaming\\Python\\Python312\\site-packages\\comtypes\\gen\\__init__.py'>
-INFO:comtypes.client._code_cache:Using writeable comtypes cache directory: 'C:\Users\Aathif\AppData\Roaming\Python\Python312\site-packages\comtypes\gen'
-INFO:comtypes.client._code_cache:Imported existing <module 'comtypes.gen' from 'C:\\Users\\Aathif\\AppData\\Roaming\\Python\\Python312\\site-packages\\comtypes\\gen\\__init__.py'>
-INFO:comtypes.client._code_cache:Using writeable comtypes cache directory: 'C:\Users\Aathif\AppData\Roaming\Python\Python312\site-packages\comtypes\gen'
-INFO:comtypes.client._code_cache:Imported existing <module 'comtypes.gen' from 'C:\\Users\\Aathif\\AppData\\Roaming\\Python\\Python312\\site-packages\\comtypes\\gen\\__init__.py'>
-INFO:comtypes.client._code_cache:Using writeable comtypes cache directory: 'C:\Users\Aathif\AppData\Roaming\Python\Python312\site-packages\comtypes\gen'
-INFO:comtypes.client._code_cache:Imported existing <module 'comtypes.gen' from 'C:\\Users\\Aathif\\AppData\\Roaming\\Python\\Python312\\site-packages\\comtypes\\gen\\__init__.py'>
-INFO:comtypes.client._code_cache:Using writeable comtypes cache directory: 'C:\Users\Aathif\AppData\Roaming\Python\Python312\site-packages\comtypes\gen'
-INFO:comtypes.client._code_cache:Imported existing <module 'comtypes.gen' from 'C:\\Users\\Aathif\\AppData\\Roaming\\Python\\Python312\\site-packages\\comtypes\\gen\\__init__.py'>
-INFO:comtypes.client._code_cache:Using writeable comtypes cache directory: 'C:\Users\Aathif\AppData\Roaming\Python\Python312\site-packages\comtypes\gen'
-INFO:comtypes.client._code_cache:Imported existing <module 'comtypes.gen' from 'C:\\Users\\Aathif\\AppData\\Roaming\\Python\\Python312\\site-packages\\comtypes\\gen\\__init__.py'>
-INFO:comtypes.client._code_cache:Using writeable comtypes cache directory: 'C:\Users\Aathif\AppData\Roaming\Python\Python312\site-packages\comtypes\gen'
-INFO:comtypes.client._code_cache:Imported existing <module 'comtypes.gen' from 'C:\\Users\\Aathif\\AppData\\Roaming\\Python\\Python312\\site-packages\\comtypes\\gen\\__init__.py'>
-INFO:comtypes.client._code_cache:Using writeable comtypes cache directory: 'C:\Users\Aathif\AppData\Roaming\Python\Python312\site-packages\comtypes\gen'
-INFO:comtypes.client._code_cache:Imported existing <module 'comtypes.gen' from 'C:\\Users\\Aathif\\AppData\\Roaming\\Python\\Python312\\site-packages\\comtypes\\gen\\__init__.py'>
-INFO:comtypes.client._code_cache:Using writeable comtypes cache directory: 'C:\Users\Aathif\AppData\Roaming\Python\Python312\site-packages\comtypes\gen'
-INFO:comtypes.client._code_cache:Imported existing <module 'comtypes.gen' from 'C:\\Users\\Aathif\\AppData\\Roaming\\Python\\Python312\\site-packages\\comtypes\\gen\\__init__.py'>
-INFO:comtypes.client._code_cache:Using writeable comtypes cache directory: 'C:\Users\Aathif\AppData\Roaming\Python\Python312\site-packages\comtypes\gen'
-INFO:comtypes.client._code_cache:Imported existing <module 'comtypes.gen' from 'C:\\Users\\Aathif\\AppData\\Roaming\\Python\\Python312\\site-packages\\comtypes\\gen\\__init__.py'>
-INFO:comtypes.client._code_cache:Using writeable comtypes cache directory: 'C:\Users\Aathif\AppData\Roaming\Python\Python312\site-packages\comtypes\gen'
-INFO:comtypes.client._code_cache:Imported existing <module 'comtypes.gen' from 'C:\\Users\\Aathif\\AppData\\Roaming\\Python\\Python312\\site-packages\\comtypes\\gen\\__init__.py'>
-INFO:comtypes.client._code_cache:Using writeable comtypes cache directory: 'C:\Users\Aathif\AppData\Roaming\Python\Python312\site-packages\comtypes\gen'
-INFO:comtypes.client._code_cache:Imported existing <module 'comtypes.gen' from 'C:\\Users\\Aathif\\AppData\\Roaming\\Python\\Python312\\site-packages\\comtypes\\gen\\__init__.py'>
-INFO:comtypes.client._code_cache:Using writeable comtypes cache directory: 'C:\Users\Aathif\AppData\Roaming\Python\Python312\site-packages\comtypes\gen'
-INFO:comtypes.client._code_cache:Imported existing <module 'comtypes.gen' from 'C:\\Users\\Aathif\\AppData\\Roaming\\Python\\Python312\\site-packages\\comtypes\\gen\\__init__.py'>
-INFO:comtypes.client._code_cache:Using writeable comtypes cache directory: 'C:\Users\Aathif\AppData\Roaming\Python\Python312\site-packages\comtypes\gen'
-INFO:comtypes.client._code_cache:Imported existing <module 'comtypes.gen' from 'C:\\Users\\Aathif\\AppData\\Roaming\\Python\\Python312\\site-packages\\comtypes\\gen\\__init__.py'>
-INFO:comtypes.client._code_cache:Using writeable comtypes cache directory: 'C:\Users\Aathif\AppData\Roaming\Python\Python312\site-packages\comtypes\gen'
-INFO:comtypes.client._code_cache:Imported existing <module 'comtypes.gen' from 'C:\\Users\\Aathif\\AppData\\Roaming\\Python\\Python312\\site-packages\\comtypes\\gen\\__init__.py'>
-INFO:comtypes.client._code_cache:Using writeable comtypes cache directory: 'C:\Users\Aathif\AppData\Roaming\Python\Python312\site-packages\comtypes\gen'
-INFO:comtypes.client._code_cache:Imported existing <module 'comtypes.gen' from 'C:\\Users\\Aathif\\AppData\\Roaming\\Python\\Python312\\site-packages\\comtypes\\gen\\__init__.py'>
-INFO:comtypes.client._code_cache:Using writeable comtypes cache directory: 'C:\Users\Aathif\AppData\Roaming\Python\Python312\site-packages\comtypes\gen'
-INFO:comtypes.client._code_cache:Imported existing <module 'comtypes.gen' from 'C:\\Users\\Aathif\\AppData\\Roaming\\Python\\Python312\\site-packages\\comtypes\\gen\\__init__.py'>
-INFO:comtypes.client._code_cache:Using writeable comtypes cache directory: 'C:\Users\Aathif\AppData\Roaming\Python\Python312\site-packages\comtypes\gen'
-INFO:comtypes.client._code_cache:Imported existing <module 'comtypes.gen' from 'C:\\Users\\Aathif\\AppData\\Roaming\\Python\\Python312\\site-packages\\comtypes\\gen\\__init__.py'>
-INFO:comtypes.client._code_cache:Using writeable comtypes cache directory: 'C:\Users\Aathif\AppData\Roaming\Python\Python312\site-packages\comtypes\gen'
+INFO:numexpr.utils:NumExpr defaulting to 8 threads.

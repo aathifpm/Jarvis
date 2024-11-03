@@ -15,6 +15,7 @@ import webbrowser
 import json
 from pathlib import Path
 from skills.live_transcription import handle_live_transcription
+from skills.whatsapp_control import handle_whatsapp_control
 
 def handle_system_control(assistant, entities):
     tokens = entities.get("tokens", [])
@@ -23,6 +24,10 @@ def handle_system_control(assistant, entities):
     # Check for transcription command first
     if any(word in command for word in ["transcribe", "transcription", "record"]):
         return handle_live_transcription(assistant, entities)
+
+    # Add WhatsApp control handling
+    if "whatsapp" in command:
+        return handle_whatsapp_control(assistant, entities)
 
     # Rest of quick commands
     quick_commands = {
@@ -113,6 +118,28 @@ def open_application(command):
         return "Please specify an application to open."
 
     try:
+        # Get common paths dictionary
+        common_paths = get_common_paths()
+        
+        # Special handling for WhatsApp
+        if "whatsapp" in app_name:
+            # Try multiple methods in order of preference
+            try:
+                # Try UWP/Store app first
+                os.system("start whatsapp:")
+                return "Opening WhatsApp"
+            except:
+                try:
+                    # Try desktop app path
+                    whatsapp_path = common_paths['whatsapp']['desktop']
+                    if os.path.exists(whatsapp_path):
+                        os.startfile(whatsapp_path)
+                        return "Opening WhatsApp Desktop"
+                except:
+                    # Fallback to web version
+                    webbrowser.open('https://web.whatsapp.com')
+                    return "Opening WhatsApp Web"
+
         # Quick check for web URLs first
         if any(tld in app_name for tld in ['.com', '.org', '.net', '.edu']):
             if not app_name.startswith(('http://', 'https://')):
