@@ -111,7 +111,7 @@ class JarvisAssistant:
                     break
                 elif command.lower() == "switch mode":
                     self.speech_handler.toggle_offline_mode()
-                elif any(keyword in command.lower() for keyword in ["open", "launch", "start", "close", "exit", "quit", "system", "cpu", "memory", "disk", "process", "screenshot", "volume", "brightness", "wifi", "bluetooth", "airplane", "night light", "settings", "file explorer", "lock", "task view", "dark mode", "notification", "focus", "quick link", "run dialog", "game bar", "magnifier", "emoji"]):
+                elif any(keyword in command.lower() for keyword in ["open", "launch", "start", "close", "exit", "quit", "system", "cpu", "memory", "disk", "process", "screenshot", "volume", "brightness", "wifi", "bluetooth", "airplane", "night light", "settings", "file explorer", "lock", "task view", "dark mode", "notification", "hotspot", "quick link", "run dialog", "game bar", "magnifier", "emoji"]):
                     response = self.handle_system_command(command)
                     self.speak(response)
                 else:
@@ -130,6 +130,17 @@ class JarvisAssistant:
         self.speak(f"Alright, I'll call you {name} from now on. I like it! It has a certain je ne sais quoi.")
 
     def handle_command(self, command):
+        # Check for live transcription commands
+        if any(phrase in command.lower() for phrase in ["transcribe", "transcription", "dictate"]):
+            from skills.live_transcription import handle_live_transcription
+            return handle_live_transcription(self, {"tokens": command.split()})
+        
+        # Check for WhatsApp commands
+        if any(phrase in command.lower() for phrase in ["whatsapp", "message", "text"]):
+            from skills.whatsapp_control import handle_whatsapp_control
+            return handle_whatsapp_control(self, {"tokens": command.split()})
+        
+        # Existing command handling...
         if "weather" in command.lower():
             response = self.get_weather()
         elif "time" in command.lower():
@@ -137,9 +148,9 @@ class JarvisAssistant:
         else:
             # Use the NLP model for intent recognition
             intent_data = self.nlp.process_command(command)
-            response = intent_data  # Assuming process_command returns a response string
+            response = intent_data
 
-        self.speak(response)
+        return response
 
     def get_weather(self):
         try:
